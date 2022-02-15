@@ -1,0 +1,14 @@
+.card-gri {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 10px;
+  margin: 10px;
+
+  /* todo will solve this thing after learing hooks */
+  /* grid-auto-rows: 150px;
+  grid-row-end: span 3; */
+}
+
+.card-gri img {
+  width: 250px;
+}
